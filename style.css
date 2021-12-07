@@ -1,0 +1,61 @@
+h1{
+    animation-name: ani;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+  }
+  @keyframes ani {
+    from{
+        margin-left: 0%;
+        color:#8B0000;
+    }
+    to{
+        margin-left: 80%;
+        color : #CD5C5C;
+    }
+  }
+  body {
+    margin: 0;
+    background: linear-gradient(to right,#DEB887,#E9967A,#ADD8E6,#F08080,#FFA07A,#FFB6C1);
+  
+    font-family: 'Trebuchet Ms', sans-serif;
+    font-size: 50px;
+  }
+  #console {
+    padding: 0vw;
+  }
+  #console,
+  #panel {
+    margin: auto;
+  }
+  
+  #panel {
+    width: clamp(330px, 5vw, 330px);
+    height: clamp(330px, 5vw, 330px);
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  .grid {
+    border: solid 1px #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    user-select: none;
+    font-weight: 600;
+  }
+  img{
+  height: 300px;
+  width: 200px;
+  margin-top: 30px;
+  }
+  main{
+  display: flex;
+  justify-content: space-between;
+  }
+  

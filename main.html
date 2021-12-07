@@ -1,47 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>X/O new version</title>
+<title>X/O new version</title> 
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main><div>
-    <img src="./263309729_1079937709470102_3912865153677523777_n.png" alt="" srcset="">
-  </div>
-<style>
-body {
-  margin: 0;
-  background: linear-gradient(to right,#DEB887,#E9967A,#ADD8E6,#F08080,#FFA07A,#FFB6C1);
-  
-  font-family: 'Trebuchet Ms', sans-serif;
-  font-size: 33px;
-}
-#console {
-  padding: 3vw;
-}
-#console,
-#panel {
-  margin: auto;
-}
+    <header >
+        <h1>xoxo</h1>
+    </header>
+<main>
+  <div>
+ <img src="./kisspng-computer-icons-clip-art-check-mark-x-mark-astrolog-filegartoon-actions-cancel-svg-wikimedia-common-5c53792fbb7cb5.625824561548974383768.png" alt="sc"width="400" height="200">
+</div>
 
-#panel {
-  width: clamp(550px, 5vw, 200px);
-  height: clamp(630px, 5vw, 200px);
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-}
-.grid {
-  border: solid 1px #000;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-size: 25px;
-  user-select: none;
-  font-weight: 400;
-}
-    </style>
 <div id="console">
 <div id="panel">
 <div class="grid" id="0"></div>
@@ -54,11 +25,12 @@ body {
 <div class="grid" id="7"></div>
 <div class="grid" id="8"></div>
 </div>
-  <div>
-    <img src="./263846096_292146729501520_4932106494832440123_n.jpg" alt="" srcset="">
-  </div>
-</main>
 </div>
+<div><img src="./o.png" alt="first"width="400" height="200"></div>
+
+</main>
+
+   
 <script>
     var playMarks, winLines, playCount, nextPlayer;
     var initGame = (reload, winner) => {playMarks = Array(9).fill(null), winLines = [[0, 1, 2],[2,5,8],[6,7,8],[0, 3, 6],[3, 4, 5],[1, 4, 7],[0, 4, 8],[2, 4, 6]], playCount = 0, nextPlayer = localStorage.getItem('nextPlayer') || 'X'; 
